@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="#/" id="logo"></a>
+            <nav id="main-nav">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">
+                            <span>融资授信管理</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>融资放款</span><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">融资放款</a></li>
+                            <li><a href="#">融资回款</a></li>
+                            <li><a href="#">融资退款</a></li>
+                            <li><a href="#">审批查询</a></li>
+                            <li><a href="#">融资台账查询</a></li>
+                            <li><a href="#">客户业务查询</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>客户管理</span>
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <span>系统设置</span><span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">修改密码</a></li>
+                            <li><a href="#">账户管理</a></li>
+                            <li><a href="#">角色管理</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="content">
+        <div class="container">
+            <ul class="crumb">
+                <li>融资业务系统 -> 融资业务管理 -> 融资放款</li>
+            </ul>
+            <form class="form-inline" role="form">
+                <div class="form-group form-group-find">
+                    <input type="text" class="form-control" placeholder="供应商名称 / 编号">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-find">查找</button>
+                </div>
+            </form>
+            <div class="table-apply">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <td class="center td-apply-num">
+                                供应商编号
+                            </td>
+                            <td>123456</td>
+                        </tr>
+                        <tr>
+                            <td class="center">
+                                供应商
+                            </td>
+                            <td>ABC</td>
+                        </tr>
+                        <tr>
+                            <td class="center">
+                                产品类型
+                            </td>
+                            <td><input type="text" class="form-control input-sm" placeholder="请输入关键字"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <button type="submit" class="btn btn-primary btn-sm">提交</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
