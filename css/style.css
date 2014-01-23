@@ -1,0 +1,160 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+}
+
+#header {
+    height: 35px;
+    background: #0D35A0;
+}
+
+#logo {
+    float: left;
+    width: 170px;
+    height: 30px;
+    display: block;
+    margin-top: 2px;
+    background: url('/images/icon.png') 0 0 no-repeat;
+}
+
+#main-nav {
+    float: left;
+}
+
+#content {
+}
+
+.crumb {
+    margin-top: 40px;
+    font-weight: bolder;
+}
+
+.form-control, .btn {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.btn-find {
+    padding: 6px 20px;
+}
+
+.btn-sm {
+    padding: 4px 12px;
+}
+
+#main-nav > .nav > .active > a, #main-nav > .nav > .active > a:hover {
+    color: #555;
+    background-color: #eee;
+}
+
+#main-nav > .nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 35px;
+    color: #fff;
+}
+
+    #main-nav > .nav > li > a:hover, #main-nav > .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #0A2875;
+    }
+
+#main-nav > .nav > li.open > a {
+    background: #0A2875;
+    text-decoration: none;
+}
+
+#main-nav > .nav > li > a .caret {
+    border-top-color: #fff;
+    margin-left: 4px;
+}
+
+#main-nav .dropdown-menu {
+    background: #eee;
+    border-color: #0D35A0;
+    border-width: 1px;
+    border-top: 0 none;
+    -webkit-border-radius: 0 0 4px 4px;
+    -moz-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    margin-top: 0;
+}
+
+    #main-nav .dropdown-menu > li > a:hover {
+        background: #0D35A0;
+        color: #fff;
+        filter: none;
+    }
+
+.form-group-find {
+    width: 320px;
+}
+
+.table-apply {
+    margin-top: 30px;
+    background: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.td-apply-num {
+    width: 160px;
+}
+
+.table-bg {
+    text-align: center;
+    background: #fff;
+}
+
+    .table-bg .row-middle {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .table-bg th {
+        text-align: center;
+        background: #F1F3F8;
+    }
+
+    .table-bg .checkbox {
+        text-align: left;
+        margin: 0;
+    }
+
+.table-half {
+    text-align: left;
+    width: 60%;
+}
+
+    .table-half .td-apply {
+        width: 180px;
+        padding-left: 30px;
+        background: #F1F3F8;
+    }
+
+.apply-statics {
+    width: 60%;
+    margin: 30px 0;
+    font-weight: bolder;
+}
+
+    .apply-statics span {
+        margin-right: 50px;
+    }
+
+        .apply-statics span:last-child {
+            margin-right: 0;
+        }
+
+.apply-submit {
+    width: 60%;
+    margin: 30px 0;
+    text-align: right;
+}
